@@ -14,13 +14,15 @@
  *= require_self
  */
 
+
 .navbar,
-.navbar-header > a,
-.nav > li.dropdown > a,
-.nav > li.dropdown.open > a,
-.nav > li.dropdown.open.active > a:hover,
-.nav > li.dropdown.open > ul.dropdown-menu > li > a:hover {
+.navbar-header a,
+.navbar-nav .dropdown > a,
+.navbar-nav .dropdown-toggle:hover,
+.navbar-nav .open > a.dropdown-toggle:focus,
+.navbar-nav .dropdown-menu a:hover {
   background-color: #286090;
   color: white;
 }
+
 
